@@ -1,9 +1,4 @@
 spring:
-  mvc:
-    pathmatch:
-      matching-strategy: ANT_PATH_MATCHER
-  profiles:
-    active: dev
   jpa:
     show-sql: true
     properties:
